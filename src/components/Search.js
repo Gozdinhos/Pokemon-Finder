@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styleDocs/Search.css';
 class Search extends React.Component {
   constructor(props) {
     super(props);
@@ -12,7 +13,7 @@ class Search extends React.Component {
   render() {
     return (
       <div className='container'>
-        <h2 className='heading'>Live Search: React Application</h2>
+        <h2 className='heading'>Pokemon Finder</h2>
         <input
           className='search-label'
           type='text'
